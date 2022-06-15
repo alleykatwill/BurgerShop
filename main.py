@@ -160,7 +160,7 @@ class Order:
         os.system('cls||clear')
 
         print("--------------------------------------------------------------------------")
-        print("-------------------WELCOME TO Data Diggers Burger Shop--------------------")
+        print("-------------------WELCOME TO Craft House Burger Shop--------------------")
         print(f"                                 {now.strftime('%d/%m/%Y')}")
         print(f"                                  {now.strftime('%H:%M:%S')}")
         print("--------------------------------------------------------------------------")
@@ -174,7 +174,7 @@ class Order:
             f"                          Subtotal after promotion= {order_price_promo}$")
         print("--------------------------------------------------------------------------")
         print(
-            f"            Thank you for shopping at the Burger Shop {self.name}!")
+            f"            Thank you for shopping at the Craft House Burger Shop {self.name}!")
         print("--------------------------------------------------------------------------")
 
     def promo_code(self) -> None:
